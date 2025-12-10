@@ -29,6 +29,8 @@ install(PROGRAMS
     src/task2b_manipulation.py
     src/g_back.py
     src/task3a_perception.py
+    src/perception.py
+    src/backup.py
     
     DESTINATION lib/${PROJECT_NAME}
 )

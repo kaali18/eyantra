@@ -42,7 +42,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 35,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -234,7 +234,9 @@
 				"src/task2b_detection.py",
 				"src/task2b_manipulation.py",
 				"src/g_back.py",
-				"src/task3a_perception.py"
+				"src/task3a_perception.py",
+				"src/perception.py",
+				"src/backup.py"
 			],
 			"type" : "file"
 		},

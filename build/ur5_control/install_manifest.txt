@@ -4,6 +4,8 @@
 /home/kasinath/colcon_ws/install/ur5_control/lib/ur5_control/task2b_manipulation.py
 /home/kasinath/colcon_ws/install/ur5_control/lib/ur5_control/g_back.py
 /home/kasinath/colcon_ws/install/ur5_control/lib/ur5_control/task3a_perception.py
+/home/kasinath/colcon_ws/install/ur5_control/lib/ur5_control/perception.py
+/home/kasinath/colcon_ws/install/ur5_control/lib/ur5_control/backup.py
 /home/kasinath/colcon_ws/install/ur5_control/share/ament_index/resource_index/package_run_dependencies/ur5_control
 /home/kasinath/colcon_ws/install/ur5_control/share/ament_index/resource_index/parent_prefix_path/ur5_control
 /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/environment/ament_prefix_path.sh
