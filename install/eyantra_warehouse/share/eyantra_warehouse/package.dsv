@@ -1,0 +1,10 @@
+source;ros_domain_id.txt
+source;share/eyantra_warehouse/hook/cmake_prefix_path.ps1
+source;share/eyantra_warehouse/hook/cmake_prefix_path.dsv
+source;share/eyantra_warehouse/hook/cmake_prefix_path.sh
+source;share/eyantra_warehouse/local_setup.bash
+source;share/eyantra_warehouse/local_setup.dsv
+source;share/eyantra_warehouse/local_setup.ps1
+source;share/eyantra_warehouse/local_setup.sh
+source;share/eyantra_warehouse/local_setup.spawn_bash_shell
+source;share/eyantra_warehouse/local_setup.zsh

@@ -1,0 +1,27 @@
+[0.063s] Invoking command in '/home/kasinath/colcon_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/home/kasinath/colcon_ws/install/ur_simulation_gz:/home/kasinath/colcon_ws/install/ur5_control:/home/kasinath/colcon_ws/install/linkattacher_msgs:/home/kasinath/colcon_ws/install/eyantra_warehouse:/home/kasinath/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur_simulation_gz -- -j4 -l4
+[0.240s] Invoked command in '/home/kasinath/colcon_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/home/kasinath/colcon_ws/install/ur_simulation_gz:/home/kasinath/colcon_ws/install/ur5_control:/home/kasinath/colcon_ws/install/linkattacher_msgs:/home/kasinath/colcon_ws/install/eyantra_warehouse:/home/kasinath/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur_simulation_gz -- -j4 -l4
+[0.254s] Invoking command in '/home/kasinath/colcon_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/home/kasinath/colcon_ws/install/ur_simulation_gz:/home/kasinath/colcon_ws/install/ur5_control:/home/kasinath/colcon_ws/install/linkattacher_msgs:/home/kasinath/colcon_ws/install/eyantra_warehouse:/home/kasinath/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur_simulation_gz
+[0.272s] -- Install configuration: ""
+[0.273s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/config
+[0.274s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/config/ur_controllers.yaml
+[0.274s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/launch
+[0.274s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/launch/spawn_arm.launch.py
+[0.275s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/lib/ur_simulation_gz/twist_servo_cal.py
+[0.275s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/lib/ur_simulation_gz/kdl_parser_py.py
+[0.275s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/ur5_arm.urdf
+[0.276s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gz
+[0.276s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gz
+[0.277s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.sh
+[0.277s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.dsv
+[0.277s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.sh
+[0.277s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.dsv
+[0.277s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.bash
+[0.278s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.sh
+[0.278s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.zsh
+[0.278s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.dsv
+[0.278s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv
+[0.279s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/packages/ur_simulation_gz
+[0.281s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig.cmake
+[0.282s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig-version.cmake
+[0.282s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.xml
+[0.288s] Invoked command in '/home/kasinath/colcon_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/home/kasinath/colcon_ws/install/ur_simulation_gz:/home/kasinath/colcon_ws/install/ur5_control:/home/kasinath/colcon_ws/install/linkattacher_msgs:/home/kasinath/colcon_ws/install/eyantra_warehouse:/home/kasinath/colcon_ws/install/ebot_description:/opt/ros/humble /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur_simulation_gz

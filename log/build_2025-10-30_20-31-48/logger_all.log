@@ -1,0 +1,207 @@
+[3.171s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ur5_control']
+[3.172s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ur5_control'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], bazel_args=None, bazel_task=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x77602f1467a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77602f1456f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77602f1456f0>>, mixin_verb=('build',))
+[3.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.513s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kasinath/colcon_ws'
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.548s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['bazel', 'cmake', 'meson', 'python']
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'bazel'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore'
+[3.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ignore_ament_install'
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_pkg']
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_pkg'
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['colcon_meta']
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'colcon_meta'
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extensions ['ros']
+[3.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_description) by extension 'ros'
+[3.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_description' with type 'ros.ament_cmake' and name 'ebot_description'
+[3.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[3.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore'
+[3.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ignore_ament_install'
+[3.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_pkg']
+[3.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_pkg'
+[3.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['colcon_meta']
+[3.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'colcon_meta'
+[3.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extensions ['ros']
+[3.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantra_warehouse) by extension 'ros'
+[3.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eyantra_warehouse' with type 'ros.ament_cmake' and name 'eyantra_warehouse'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore_ament_install'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_pkg']
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_pkg'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_meta']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_meta'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ros']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ros'
+[3.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['ignore', 'ignore_ament_install']
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ignore'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ignore_ament_install'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['colcon_pkg']
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'colcon_pkg'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['colcon_meta']
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'colcon_meta'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extensions ['ros']
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_control) by extension 'ros'
+[3.596s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_control' with type 'ros.ament_cmake' and name 'ur5_control'
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore_ament_install'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_pkg']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_pkg'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_meta']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_meta'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ros']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ros'
+[3.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[3.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['ignore', 'ignore_ament_install']
+[3.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ignore'
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ignore_ament_install'
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['colcon_pkg']
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'colcon_pkg'
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['colcon_meta']
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'colcon_meta'
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['ros']
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ros'
+[3.608s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_simulation_gz' with type 'ros.ament_cmake' and name 'ur_simulation_gz'
+[3.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ebot_description' in 'src/ebot_description'
+[3.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eyantra_warehouse' in 'src/eyantra_warehouse'
+[3.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'linkattacher_msgs' in 'src/linkattacher_msgs'
+[3.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_description' in 'src/ur_description'
+[3.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_simulation_gz' in 'src/ur_simulation_gz'
+[3.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.754s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kasinath/colcon_ws/install
+[3.784s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 515 installed packages in /opt/ros/humble
+[3.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.330s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'bazel_args' from command line to 'None'
+[5.330s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'bazel_task' from command line to 'None'
+[5.330s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_args' from command line to 'None'
+[5.330s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target' from command line to 'None'
+[5.331s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_cache' from command line to 'False'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_first' from command line to 'False'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_force_configure' from command line to 'False'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'meson_args' from command line to '[]'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'ament_cmake_args' from command line to 'None'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_cmake_args' from command line to 'None'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.332s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_control' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/kasinath/colcon_ws/build/ur5_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kasinath/colcon_ws/install/ur5_control', 'merge_install': False, 'meson_args': [], 'path': '/home/kasinath/colcon_ws/src/ur5_control', 'symlink_install': False, 'test_result_base': None}
+[5.332s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kasinath/colcon_ws/src/ur5_control' with build type 'ament_cmake'
+[5.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kasinath/colcon_ws/src/ur5_control'
+[5.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.377s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Allocated ROS_DOMAIN_ID=24 for '/home/kasinath/colcon_ws/build/ur5_control'
+[5.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'ros_domain_id' for command environment: 
+[5.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kasinath/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur5_control -- -j4 -l4
+[5.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kasinath/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur5_control -- -j4 -l4
+[5.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kasinath/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur5_control
+[6.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_control)
+[6.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kasinath/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur5_control
+[6.050s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control' for CMake module files
+[6.054s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control' for CMake config files
+[6.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'cmake_prefix_path')
+[6.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.ps1'
+[6.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.dsv'
+[6.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.sh'
+[6.075s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/lib'
+[6.076s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/bin'
+[6.076s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/lib/pkgconfig/ur5_control.pc'
+[6.080s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/lib/python3.10/site-packages'
+[6.081s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/bin'
+[6.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.ps1'
+[6.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.dsv'
+[6.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.sh'
+[6.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.bash'
+[6.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.zsh'
+[6.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kasinath/colcon_ws/install/ur5_control/share/colcon-core/packages/ur5_control)
+[6.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_control)
+[6.109s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control' for CMake module files
+[6.111s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control' for CMake config files
+[6.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'cmake_prefix_path')
+[6.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.ps1'
+[6.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.dsv'
+[6.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/hook/cmake_prefix_path.sh'
+[6.125s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/lib'
+[6.126s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/bin'
+[6.126s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/lib/pkgconfig/ur5_control.pc'
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/lib/python3.10/site-packages'
+[6.129s] Level 1:colcon.colcon_core.environment:checking '/home/kasinath/colcon_ws/install/ur5_control/bin'
+[6.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.ps1'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.dsv'
+[6.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.sh'
+[6.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.bash'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.zsh'
+[6.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kasinath/colcon_ws/install/ur5_control/share/colcon-core/packages/ur5_control)
+[6.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.149s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.149s] DEBUG:colcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id:Released ROS_DOMAIN_ID=24 for '/home/kasinath/colcon_ws/build/ur5_control'
+[6.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.198s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.287s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kasinath/colcon_ws/install/local_setup.ps1'
+[6.300s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kasinath/colcon_ws/install/_local_setup_util_ps1.py'
+[6.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kasinath/colcon_ws/install/setup.ps1'
+[6.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kasinath/colcon_ws/install/local_setup.sh'
+[6.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kasinath/colcon_ws/install/_local_setup_util_sh.py'
+[6.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kasinath/colcon_ws/install/setup.sh'
+[6.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kasinath/colcon_ws/install/local_setup.bash'
+[6.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kasinath/colcon_ws/install/setup.bash'
+[6.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kasinath/colcon_ws/install/local_setup.zsh'
+[6.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kasinath/colcon_ws/install/setup.zsh'
+[6.351s] INFO:colcon.colcon_core.shell:Creating '/home/kasinath/colcon_ws/install/spawn_shell.bash'

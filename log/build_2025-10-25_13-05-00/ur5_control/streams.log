@@ -1,0 +1,22 @@
+[0.055s] Invoking command in '/home/kasinath/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur5_control -- -j4 -l4
+[0.127s] Invoked command in '/home/kasinath/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur5_control -- -j4 -l4
+[0.132s] Invoking command in '/home/kasinath/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur5_control
+[0.140s] -- Install configuration: ""
+[0.140s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/lib/ur5_control/task1b_boiler_plate.py
+[0.140s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/lib/ur5_control/bonus_task2_boiler_plate.py
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ament_index/resource_index/package_run_dependencies/ur5_control
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ament_index/resource_index/parent_prefix_path/ur5_control
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/environment/path.sh
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/environment/path.dsv
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/local_setup.bash
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/local_setup.sh
+[0.141s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/local_setup.zsh
+[0.142s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/local_setup.dsv
+[0.142s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.dsv
+[0.142s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ament_index/resource_index/packages/ur5_control
+[0.142s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/cmake/ur5_controlConfig.cmake
+[0.142s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/cmake/ur5_controlConfig-version.cmake
+[0.142s] -- Up-to-date: /home/kasinath/colcon_ws/install/ur5_control/share/ur5_control/package.xml
+[0.154s] Invoked command in '/home/kasinath/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur5_control

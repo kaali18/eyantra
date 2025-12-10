@@ -1,0 +1,269 @@
+[0.025s] Invoking command in '/home/kasinath/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kasinath/colcon_ws/src/linkattacher_msgs -DCMAKE_INSTALL_PREFIX=/home/kasinath/colcon_ws/install/linkattacher_msgs
+[0.446s] -- The C compiler identification is GNU 11.4.0
+[0.730s] -- The CXX compiler identification is GNU 11.4.0
+[0.751s] -- Detecting C compiler ABI info
+[0.865s] -- Detecting C compiler ABI info - done
+[0.878s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.879s] -- Detecting C compile features
+[0.880s] -- Detecting C compile features - done
+[0.891s] -- Detecting CXX compiler ABI info
+[1.032s] -- Detecting CXX compiler ABI info - done
+[1.033s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.034s] -- Detecting CXX compile features
+[1.034s] -- Detecting CXX compile features - done
+[1.065s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.749s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.944s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.008s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.329s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.980s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.984s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.032s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.032s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.032s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.032s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.061s] -- Found PythonExtra: .so  
+[4.120s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.177s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.179s] -- Added test 'lint_cmake' to check CMake code style
+[4.181s] -- Added test 'xmllint' to check XML markup files
+[4.184s] -- Configuring done
+[4.236s] -- Generating done
+[4.254s] -- Build files have been written to: /home/kasinath/colcon_ws/build/linkattacher_msgs
+[4.262s] Invoked command in '/home/kasinath/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=82 /usr/bin/cmake /home/kasinath/colcon_ws/src/linkattacher_msgs -DCMAKE_INSTALL_PREFIX=/home/kasinath/colcon_ws/install/linkattacher_msgs
+[4.264s] Invoking command in '/home/kasinath/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=82 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/linkattacher_msgs -- -j4 -l4
+[4.331s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.338s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.370s] [  5%] Built target ament_cmake_python_copy_linkattacher_msgs
+[5.098s] running egg_info
+[5.127s] creating linkattacher_msgs.egg-info
+[5.128s] writing linkattacher_msgs.egg-info/PKG-INFO
+[5.128s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[5.128s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[5.128s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[5.229s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[5.229s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[5.284s] [  5%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[5.391s] [  7%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/attach_link__functions.c.o[0m
+[5.395s] [ 10%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/detach_link__functions.c.o[0m
+[5.423s] [ 10%] Built target linkattacher_msgs__cpp
+[5.435s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.437s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.026s] [ 17%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[6.139s] [ 20%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[6.146s] [ 23%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_generator_c.so[0m
+[6.265s] [ 25%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/attach_link__type_support.cpp.o[0m
+[6.272s] [ 25%] Built target linkattacher_msgs__rosidl_generator_c
+[6.285s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.721s] [ 30%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/detach_link__type_support.cpp.o[0m
+[6.722s] [ 33%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_cpp.so[0m
+[6.791s] [ 33%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[6.803s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.993s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.064s] [ 41%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/attach_link__type_support.cpp.o[0m
+[7.291s] [ 43%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.431s] [ 43%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[7.446s] [ 46%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/detach_link__type_support.cpp.o[0m
+[7.721s] [ 48%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/attach_link__type_support_c.cpp.o[0m
+[7.786s] [ 51%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/attach_link__type_support.c.o[0m
+[7.843s] [ 53%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/detach_link__type_support.c.o[0m
+[7.921s] [ 56%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.989s] [ 58%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/detach_link__type_support_c.cpp.o[0m
+[8.059s] [ 61%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.075s] [ 61%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[8.087s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.309s] [ 64%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[8.358s] [ 66%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.435s] [ 66%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[8.618s] [ 71%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[8.618s] [ 71%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[8.653s] [ 74%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_c.so[0m
+[8.688s] [ 74%] Built target linkattacher_msgs__rosidl_typesupport_c
+[8.705s] [ 74%] Built target linkattacher_msgs
+[8.725s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.484s] [ 76%] Built target linkattacher_msgs__py
+[9.501s] [ 79%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_attach_link_s.c.o[0m
+[9.501s] [ 82%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_detach_link_s.c.o[0m
+[9.751s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so[0m
+[9.785s] [ 84%] Built target linkattacher_msgs__rosidl_generator_py
+[9.805s] [ 87%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.805s] [ 89%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.807s] [ 92%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.933s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.948s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.948s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.971s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[9.983s] [100%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.983s] [100%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[9.998s] Invoked command in '/home/kasinath/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=82 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/linkattacher_msgs -- -j4 -l4
+[9.999s] Invoking command in '/home/kasinath/colcon_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=82 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/linkattacher_msgs
+[10.007s] -- Install configuration: ""
+[10.007s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs
+[10.007s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[10.007s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[10.007s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[10.007s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h
+[10.007s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.c
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.c
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h
+[10.008s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h
+[10.009s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[10.009s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.009s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh
+[10.009s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv
+[10.009s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so
+[10.010s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so" to ""
+[10.010s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[10.010s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[10.010s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[10.010s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h
+[10.010s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h
+[10.010s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[10.010s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.010s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so
+[10.010s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.011s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[10.011s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[10.011s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[10.011s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h
+[10.011s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c
+[10.011s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c
+[10.011s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h
+[10.011s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[10.011s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.011s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so
+[10.012s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.012s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so
+[10.012s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so" to ""
+[10.012s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[10.012s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[10.012s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[10.012s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp
+[10.013s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[10.013s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.013s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[10.013s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[10.014s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[10.014s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[10.014s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/dds_fastrtps
+[10.014s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[10.014s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[10.014s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.014s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.014s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.014s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[10.014s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[10.015s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[10.015s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp
+[10.015s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.cpp
+[10.015s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp
+[10.015s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.cpp
+[10.015s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so
+[10.015s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.015s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so
+[10.016s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so" to ""
+[10.016s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh
+[10.016s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv
+[10.016s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info
+[10.016s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.016s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.016s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[10.016s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link_s.c
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py
+[10.017s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link_s.c
+[10.018s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py
+[10.018s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.018s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.018s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c
+[10.018s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so
+[10.087s] Listing '/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs'...
+[10.087s] Compiling '/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py'...
+[10.087s] Listing '/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv'...
+[10.087s] Compiling '/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py'...
+[10.087s] Compiling '/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py'...
+[10.087s] Compiling '/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py'...
+[10.092s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.092s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.092s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.092s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.092s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.093s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.093s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so
+[10.093s] -- Set runtime path of "/home/kasinath/colcon_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so" to ""
+[10.093s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl
+[10.093s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl
+[10.093s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[10.093s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg
+[10.094s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv
+[10.094s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[10.094s] -- Up-to-date: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh
+[10.094s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv
+[10.095s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.096s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.097s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake
+[10.098s] -- Installing: /home/kasinath/colcon_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.xml
+[10.101s] Invoked command in '/home/kasinath/colcon_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=82 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/linkattacher_msgs

@@ -1,0 +1,4 @@
+Invoking command in '/home/kasinath/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur5_control -- -j4 -l4
+Invoked command in '/home/kasinath/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur5_control -- -j4 -l4
+Invoking command in '/home/kasinath/colcon_ws/build/ur5_control': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur5_control
+Invoked command in '/home/kasinath/colcon_ws/build/ur5_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=83 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur5_control

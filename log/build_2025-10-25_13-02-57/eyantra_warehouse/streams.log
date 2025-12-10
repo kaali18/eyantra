@@ -1,0 +1,218 @@
+[0.027s] Invoking command in '/home/kasinath/colcon_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=7 /usr/bin/cmake /home/kasinath/colcon_ws/src/eyantra_warehouse -DCMAKE_INSTALL_PREFIX=/home/kasinath/colcon_ws/install/eyantra_warehouse
+[0.451s] -- The C compiler identification is GNU 11.4.0
+[0.736s] -- The CXX compiler identification is GNU 11.4.0
+[0.756s] -- Detecting C compiler ABI info
+[0.869s] -- Detecting C compiler ABI info - done
+[0.883s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.884s] -- Detecting C compile features
+[0.885s] -- Detecting C compile features - done
+[0.895s] -- Detecting CXX compiler ABI info
+[1.023s] -- Detecting CXX compiler ABI info - done
+[1.037s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.037s] -- Detecting CXX compile features
+[1.037s] -- Detecting CXX compile features - done
+[1.070s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.755s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.949s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.053s] -- Configuring done
+[2.055s] -- Generating done
+[2.057s] -- Build files have been written to: /home/kasinath/colcon_ws/build/eyantra_warehouse
+[2.063s] Invoked command in '/home/kasinath/colcon_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=7 /usr/bin/cmake /home/kasinath/colcon_ws/src/eyantra_warehouse -DCMAKE_INSTALL_PREFIX=/home/kasinath/colcon_ws/install/eyantra_warehouse
+[2.065s] Invoking command in '/home/kasinath/colcon_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=7 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/eyantra_warehouse -- -j4 -l4
+[2.103s] Invoked command in '/home/kasinath/colcon_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=7 /usr/bin/cmake --build /home/kasinath/colcon_ws/build/eyantra_warehouse -- -j4 -l4
+[2.115s] Invoking command in '/home/kasinath/colcon_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=7 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/eyantra_warehouse
+[2.123s] -- Install configuration: ""
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task1_bonus.launch.py
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task2b.launch.py
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task2.launch.py
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task0.launch.py
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task1.launch.py
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds
+[2.124s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds/eyantra_warehouse_task1_bonus.world
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds/eyantra_warehouse_task0.world
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds/eyantra_warehouse_task2.world
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds/eyantra_warehouse_task1.world
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt/model.config
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt/meshes
+[2.125s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt/meshes/longer_conveyor_belt.dae
+[2.126s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt/model.sdf
+[2.126s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape
+[2.126s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/model.config
+[2.127s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/meshes
+[2.127s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/meshes/dock_shape.obj
+[2.127s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/meshes/dock_shape.mtl
+[2.128s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/model.sdf
+[2.129s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape
+[2.129s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/model.config
+[2.129s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/meshes
+[2.129s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/meshes/triangle_shape.mtl
+[2.129s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/meshes/triangle_shape.obj
+[2.129s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/model.sdf
+[2.129s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base
+[2.130s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base/model.config
+[2.130s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base/meshes
+[2.130s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base/meshes/arm_base_default.dae
+[2.130s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base/model.sdf
+[2.130s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray
+[2.130s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/model.config
+[2.131s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/meshes
+[2.131s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/meshes/greenhouse_wooden_floor.png.001.png
+[2.131s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/meshes/Fruit_Tray.dae
+[2.133s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/meshes/Fruit_Tray_Collision.dae
+[2.133s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/model.sdf
+[2.133s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape
+[2.133s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/model.config
+[2.133s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/meshes
+[2.133s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/meshes/square_shape.mtl
+[2.134s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/meshes/square_shape.obj
+[2.134s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/model.sdf
+[2.134s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough
+[2.134s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/model.config
+[2.134s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/meshes
+[2.134s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/meshes/KB_plant_red_yellow_bell_pepper.dae
+[2.137s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/meshes/leaf.jpg
+[2.137s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/meshes/soil-texture-png-3.png
+[2.138s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/model.sdf
+[2.139s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack
+[2.139s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/model.config
+[2.139s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes
+[2.139s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/rack.dae
+[2.139s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/rack.stl
+[2.143s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/brushedsteel4.jpg
+[2.144s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/brushedsteel_bg.jpg
+[2.146s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/model.sdf
+[2.146s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin
+[2.146s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/model.config
+[2.146s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/meshes
+[2.146s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/meshes/TrashBin_Diffuse.png
+[2.147s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/meshes/TrashBin.mtl
+[2.147s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/meshes/TrashBin.obj
+[2.147s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails
+[2.147s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/4.png
+[2.147s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/1.png
+[2.148s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/5.png
+[2.148s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/2.png
+[2.148s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/3.png
+[2.148s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/model.sdf
+[2.148s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model
+[2.149s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/model.config
+[2.149s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes
+[2.149s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/RHUS9.STL
+[2.149s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/FUS4.STL
+[2.149s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/FWL.STL
+[2.152s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/FWR.STL
+[2.152s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/robot_base.stl
+[2.152s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/LHUS10.STL
+[2.152s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/chassis_modified.dae
+[2.173s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/FUS1.STL
+[2.173s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/ebot_description.xacro.urdf.sdf
+[2.173s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/RWL.STL
+[2.174s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/aruco_tag.jpg
+[2.174s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/RUS5.STL
+[2.174s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/RHUS7.STL
+[2.174s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/FUS2.STL
+[2.175s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/FUS3.STL
+[2.175s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/RUS6.STL
+[2.175s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/RWR.STL
+[2.175s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/meshes/LHUS9.STL
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ebot_model/ebot_description.xacro.urdf.sdf
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/model.config
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/miha-rekar-LIel8q1XQsE-unsplash.jpg
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.030.j.jpg
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/ground.jpg.001.jpg
+[2.176s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/greenhouse_wooden_floor.png.001.png
+[2.177s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warehouse_boundary.dae
+[2.187s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/bernd-dittrich-mapUehHSHYU-unsplash.jpg
+[2.188s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warningTape.png
+[2.188s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warehouse_boundary_glass_cover.dae
+[2.189s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/model.sdf
+[2.189s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider
+[2.189s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/model.config
+[2.189s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/meshes
+[2.189s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/meshes/LAWN.jpg
+[2.191s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/meshes/warehouse_divider.dae
+[2.191s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/model.sdf
+[2.191s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough
+[2.191s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/model.config
+[2.192s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes
+[2.192s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick.mtl
+[2.192s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg.004.jpg
+[2.192s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg.002.jpg
+[2.192s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg.002.jpg.001.jpg
+[2.192s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.mtl
+[2.192s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/trough.dae
+[2.206s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick.obj
+[2.206s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.dae
+[2.217s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg
+[2.217s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/soil-texture-png-3.png
+[2.218s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf.mtl
+[2.218s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/brick.mtl
+[2.218s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf.obj
+[2.219s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/brick.obj
+[2.219s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.obj
+[2.223s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.dae.bck
+[2.234s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/model.sdf
+[2.235s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt
+[2.235s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/model.config
+[2.235s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/meshes
+[2.235s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/meshes/conveyor_belt.dae
+[2.236s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/meshes/conveyor_belt.stl
+[2.236s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/model.sdf
+[2.236s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can
+[2.237s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/model.config
+[2.237s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/meshes
+[2.237s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/meshes/Fertiliser.dae
+[2.237s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/meshes/aruco_tag_3.jpg
+[2.237s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/model.sdf
+[2.238s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ground_plane
+[2.238s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ground_plane/model.config
+[2.238s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ground_plane/model.sdf
+[2.238s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit
+[2.238s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/model.config
+[2.238s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/meshes
+[2.238s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/meshes/bad_fruit.obj
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/meshes/bad_fruit_collision.obj
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/meshes/bad_fruit.mtl
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/model.sdf
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/model.config
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/meshes
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/meshes/good_fruit_collision.obj
+[2.240s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/meshes/good_fruit.obj
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/meshes/good_fruit.mtl
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/model.sdf
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/window
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/window/model.config
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/window/model.sdf
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/water_tank
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/water_tank/water_tank.mtl
+[2.242s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/water_tank/water_tank.obj
+[2.243s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//config
+[2.243s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//config/bridge.yaml
+[2.243s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//plugins
+[2.243s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse//plugins/libSampleSystem.so
+[2.244s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/lib/eyantra_warehouse/armed0.py
+[2.244s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/lib/eyantra_warehouse/pyarmor_runtime_000000
+[2.244s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/lib/eyantra_warehouse/pyarmor_runtime_000000/__init__.py
+[2.244s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/lib/eyantra_warehouse/pyarmor_runtime_000000/pyarmor_runtime.so
+[2.245s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/ament_index/resource_index/package_run_dependencies/eyantra_warehouse
+[2.245s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/ament_index/resource_index/parent_prefix_path/eyantra_warehouse
+[2.245s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/ament_prefix_path.sh
+[2.245s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/ament_prefix_path.dsv
+[2.245s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/path.sh
+[2.245s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/path.dsv
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.bash
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.sh
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.zsh
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.dsv
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/ament_index/resource_index/packages/eyantra_warehouse
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/cmake/eyantra_warehouseConfig.cmake
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/cmake/eyantra_warehouseConfig-version.cmake
+[2.246s] -- Installing: /home/kasinath/colcon_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.xml
+[2.248s] Invoked command in '/home/kasinath/colcon_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=7 /usr/bin/cmake --install /home/kasinath/colcon_ws/build/eyantra_warehouse

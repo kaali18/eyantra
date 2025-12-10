@@ -1,0 +1,7 @@
+{
+  "package_name": "linkattacher_msgs",
+  "non_idl_tuples": [
+    "/home/kasinath/colcon_ws/src/linkattacher_msgs:srv/AttachLink.srv",
+    "/home/kasinath/colcon_ws/src/linkattacher_msgs:srv/DetachLink.srv"
+  ]
+}

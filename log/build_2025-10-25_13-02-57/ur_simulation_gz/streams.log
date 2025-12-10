@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/kasinath/colcon_ws/build/ur_simulation_gz': AMENT_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/kasinath/colcon_ws/src/ur_simulation_gz -DCMAKE_INSTALL_PREFIX=/home/kasinath/colcon_ws/install/ur_simulation_gz
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.339s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.340s] -- Detecting C compile features
+[0.341s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.471s] -- Detecting CXX compile features - done
+[0.473s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.943s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.075s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.161s] -- Configuring done
+[1.164s] -- Generating done
+[1.167s] -- Build files have been written to: /home/kasinath/colcon_ws/build/ur_simulation_gz
+[1.174s] Invoked command in '/home/kasinath/colcon_ws/build/ur_simulation_gz' returned '0': AMENT_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/kasinath/colcon_ws/src/ur_simulation_gz -DCMAKE_INSTALL_PREFIX=/home/kasinath/colcon_ws/install/ur_simulation_gz
+[1.175s] Invoking command in '/home/kasinath/colcon_ws/build/ur_simulation_gz': AMENT_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur_simulation_gz -- -j4 -l4
+[1.225s] Invoked command in '/home/kasinath/colcon_ws/build/ur_simulation_gz' returned '0': AMENT_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/kasinath/colcon_ws/build/ur_simulation_gz -- -j4 -l4
+[1.227s] Invoking command in '/home/kasinath/colcon_ws/build/ur_simulation_gz': AMENT_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur_simulation_gz
+[1.236s] -- Install configuration: ""
+[1.236s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/config
+[1.236s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/config/ur_controllers.yaml
+[1.236s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/launch
+[1.236s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/launch/spawn_arm.launch.py
+[1.237s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/lib/ur_simulation_gz/twist_servo_cal.py
+[1.237s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/lib/ur_simulation_gz/kdl_parser_py.py
+[1.237s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/ur5_arm.urdf
+[1.237s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gz
+[1.237s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gz
+[1.237s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.sh
+[1.238s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/ament_prefix_path.dsv
+[1.238s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.sh
+[1.238s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/environment/path.dsv
+[1.238s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.bash
+[1.239s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.sh
+[1.239s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.zsh
+[1.240s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/local_setup.dsv
+[1.240s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv
+[1.240s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ament_index/resource_index/packages/ur_simulation_gz
+[1.240s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig.cmake
+[1.240s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/cmake/ur_simulation_gzConfig-version.cmake
+[1.240s] -- Installing: /home/kasinath/colcon_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.xml
+[1.243s] Invoked command in '/home/kasinath/colcon_ws/build/ur_simulation_gz' returned '0': AMENT_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kasinath/colcon_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/kasinath/colcon_ws/build/ur_simulation_gz
