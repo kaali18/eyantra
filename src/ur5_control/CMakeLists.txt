@@ -31,6 +31,8 @@ install(PROGRAMS
     src/task3a_perception.py
     src/perception.py
     src/backup.py
+    src/man1.py
+    src/vision1.py
     
     DESTINATION lib/${PROJECT_NAME}
 )
