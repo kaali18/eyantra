@@ -33,6 +33,8 @@ install(PROGRAMS
     src/backup.py
     src/man1.py
     src/vision1.py
+    src/m.py
+    src/nav.py
     
     DESTINATION lib/${PROJECT_NAME}
 )

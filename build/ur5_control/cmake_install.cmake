@@ -54,6 +54,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/kasinath/colcon_ws/src/ur5_control/src/backup.py"
     "/home/kasinath/colcon_ws/src/ur5_control/src/man1.py"
     "/home/kasinath/colcon_ws/src/ur5_control/src/vision1.py"
+    "/home/kasinath/colcon_ws/src/ur5_control/src/m.py"
+    "/home/kasinath/colcon_ws/src/ur5_control/src/nav.py"
     )
 endif()
 
